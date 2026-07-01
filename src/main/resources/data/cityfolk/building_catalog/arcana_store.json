@@ -1,0 +1,32 @@
+{
+  "id": "cityfolk:arcana_store",
+  "display_name": "Arcana Store",
+  "category": "retail",
+  "description": "A place for witches, wizards, and spellcasters alike to shop for scrolls, weapons, armor, arcane elements and materials, and more.",
+  "associated_jobs": [
+    "cityfolk:arcana_store_clerk"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:arcana_checkout_counter",
+      "note": "Where clerk stands to process payments."
+    },
+    {
+      "tag": "cityfolk:arcana_shop_shelves",
+      "note": "Where villagers and players can find items for sale."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "cityfolk:arcana_shop_sign",
+      "note": "Decorative sign for marking an arcana shop."
+    }
+  ],
+  "min_footprint": {
+    "width": 10,
+    "length": 10
+  },
+  "compat_source": [
+    "iron's_spells_and_spellbooks"
+  ]
+}

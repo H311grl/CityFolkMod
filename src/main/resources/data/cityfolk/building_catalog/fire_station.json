@@ -1,0 +1,30 @@
+{
+  "id": "cityfolk:fire_station",
+  "display_name": "Fire Station",
+  "category": "safety",
+  "description": "A place where firefighters work",
+  "associated_jobs": [
+    "cityfolk:firefighter"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:firepole",
+      "note": "Firefighters use this to descend from the top floor of the station"
+    },
+    {
+      "tag": "cityfolk:water_tank",
+      "note": "Firefighters keep this tank full and refill it for use in putting out fires. It can be found on firetrucks."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 7,
+    "length": 9
+  },
+  "compat_source": "immersive_vehicles"
+}

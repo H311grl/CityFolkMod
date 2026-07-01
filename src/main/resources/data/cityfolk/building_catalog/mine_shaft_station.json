@@ -1,0 +1,31 @@
+{
+  "id": "cityfolk:mine_shaft_station",
+  "display_name": "Mineshaft Station",
+  "category": "useful",
+  "description": "A place where miners gather to deposit their ores.",
+  "associated_jobs": [
+    "cityfolk:miner",
+    "cityfolk:distributor"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:ore_crate",
+      "note": "Where minors deposit ores for transport"
+    },
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 7,
+    "length": 9
+  },
+  "compat_source": "create"
+}

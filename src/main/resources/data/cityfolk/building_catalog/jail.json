@@ -1,0 +1,30 @@
+{
+  "id": "cityfolk:jail",
+  "display_name": "Jail",
+  "category": "safety",
+  "description": "A place for criminals to be incarcerated.",
+  "associated_jobs": [
+    "cityfolk:prison_guard"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:guard_locker",
+      "note": "Where guards can place their things during their shift."
+    },
+    {
+      "tag": "cityfolk:time_clock",
+      "note": "Where guards clock in."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 25,
+    "length": 30
+  },
+  "compat_source": ""
+}

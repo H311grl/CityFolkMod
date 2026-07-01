@@ -1,0 +1,34 @@
+{
+  "id": "cityfolk:clothing_store",
+  "display_name": "Clothing Store",
+  "category": "retail",
+  "description": "A place for people to buy new clothes.",
+  "associated_jobs": [
+    "cityfolk:clothing_store_clerk"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:clothing_counter",
+      "note": "Where clerks stand to process payments."
+    },
+    {
+      "tag": "cityfolk:clothing_racks",
+      "note": "Where people will find clothes"
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "cityfolk:mannequin",
+      "note": "Used for showcasing clothes."
+    }
+  ],
+  "min_footprint": {
+    "width": 7,
+    "length": 9
+  },
+  "compat_source": [
+    "lets_do_beachparty",
+    "lets_do_farm_&_charm",
+    "iron's_spells_and_spellbooks"
+  ]
+}

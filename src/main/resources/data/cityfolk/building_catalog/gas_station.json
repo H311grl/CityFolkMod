@@ -1,0 +1,30 @@
+{
+  "id": "cityfolk:gas_station",
+  "display_name": "Gas Station",
+  "category": "retail",
+  "description": "A fuel stop for players and villagers to refuel vehicles and pick up convenience items. Requires a functioning fuel pump and a checkout counter for clerk to operate",
+  "associated_jobs": [
+    "cityfolk:gas_station_clerk"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:fuel_pumps",
+      "note": "At least one pump block; compatible with Immersive vehicles fuel pumps."
+    },
+    {
+      "tag": "cityfolk:checkout_counters",
+      "note": "Where the clerk stands to process payments."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "cityfolk:convenience_shelving",
+      "note": "Snack/drink display shelves= decorative, no functional requirement."
+    }
+  ],
+  "min_footprint": {
+    "width": 7,
+    "length": 9
+  },
+  "compat_source": "immersive_vehicles"
+}

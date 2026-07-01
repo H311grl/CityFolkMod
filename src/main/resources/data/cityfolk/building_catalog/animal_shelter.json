@@ -1,0 +1,33 @@
+{
+  "id": "cityfolk:animal_shelter",
+  "display_name": "Animal Shelter",
+  "category": "retail",
+  "description": "A place for people to adopt pets or bring strays to be rehabilitated and rehomed!",
+  "associated_jobs": [
+    "cityfolk: shelter_worker"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:animal_cage",
+      "note": "At least 1 cage for smaller dogs and cats. Workers attend to these."
+    },
+    {
+      "tag": "cityfolk:cage_fence",
+      "note": "Placed around areas for larger animals. Workers enter these areas."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "cityfolk:shelter_food_bowl",
+      "note": "Food bowls for shelter animals. Cosmetic and can be used to feed animals."
+    }
+  ],
+  "min_footprint": {
+    "width": 15,
+    "length": 12
+  },
+  "compat_source": [
+    "working_dogs",
+    "critters_and_companions"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "cityfolk:jurassic_park",
+  "display_name": "Jurassic Park",
+  "category": "entertainment",
+  "description": "A place where people can go to see dinosaurs. This generally needs its own island.",
+  "associated_jobs": [
+    "cityfolk:dino_feeder",
+    "cityfolk:dino_caretaker",
+    "cityfolk:dino_park_worker"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:feeding_dispenser",
+      "note": "Dino feeders use this to feed dinosaurs."
+    },
+    {
+      "tag": "cityfolk:dino_park_station",
+      "note": "A block where park workers work."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 7,
+    "length": 9
+  },
+  "compat_source": "jurassic_reborn"
+}

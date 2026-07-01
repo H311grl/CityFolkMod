@@ -1,0 +1,34 @@
+{
+  "id": "cityfolk:bank",
+  "display_name": "Bank",
+  "category": "banking",
+  "description": "A place for people to manage their finances, resolve late bills, take out loans, and take out cash from their account",
+  "associated_jobs": [
+    "cityfolk:bank_worker"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:banker_desk",
+      "note": "Where bankers work to help people manage their money."
+    },
+    {
+      "tag": "cityfolk:bank_safe",
+      "note": "Where large quantities of money is held for those who wish to withdraw cash. Only bankers have access."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "cityfolk:bank_seats",
+      "note": "Chairs for people to sit in.Compatible with seats in other mods."
+    }
+  ],
+  "min_footprint": {
+    "width": 7,
+    "length": 9
+  },
+  "compat_source": [
+    "yuushas_townscape",
+    "handcrafted",
+    "lets_do_furniture"
+  ]
+}

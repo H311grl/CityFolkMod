@@ -1,0 +1,33 @@
+{
+  "id": "cityfolk:club",
+  "display_name": "Club",
+  "category": "entertainment",
+  "description": "A place for people to drink and have fun listening to loud music",
+  "associated_jobs": [
+    "cityfolk:bartender",
+    "cityfolk:club_manager",
+    "cityfolk:bouncer",
+    "cityfolk:dancer"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:club_door",
+      "note": "Where bouncers stand to guard the club from underage people and unruly people."
+    },
+    {
+      "tag": "city_folk:manager_desk",
+      "note": "Where the manager works to manage the club stats."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "cityfolk:dancer_stage",
+      "note": "Where dancers perform."
+    }
+  ],
+  "min_footprint": {
+    "width": 10,
+    "length": 15
+  },
+  "compat_source": ""
+}

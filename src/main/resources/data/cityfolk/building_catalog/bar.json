@@ -1,0 +1,33 @@
+{
+  "id": "cityfolk:bar",
+  "display_name": "Bar",
+  "category": "food",
+  "description": "A place for people to have a drink- or more than one. Villagers can go here to drink away their sorrows, hang out, or meet people.",
+  "associated_jobs": [
+    "cityfolk:bartender"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:beer_tap",
+      "note": "Where bartenders can pour beers. Compatible with Brewin 'n' chewin'"
+    },
+    {
+      "tag": "cityfolk:blender",
+      "note": "Bartenders can use this to make frozen drinks or milkshakes"
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "cityfolk:bar_stool",
+      "note": "For people to sit at the bar"
+    }
+  ],
+  "min_footprint": {
+    "width": 12,
+    "length": 10
+  },
+  "compat_source": [
+    "brewin_n_chewin",
+    "lets_do_vinery"
+  ]
+}

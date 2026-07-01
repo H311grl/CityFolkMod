@@ -1,0 +1,26 @@
+{
+  "id": "cityfolk:car_dealership",
+  "display_name": "Car Dealership",
+  "category": "retail",
+  "description": "A place for people to buy cars.",
+  "associated_jobs": [
+    "cityfolk:dealership_worker"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:dealership_desk",
+      "note": "Where workers process payments on cars."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "cityfolk:dealership_sign",
+      "note": "Big sign for dealerships"
+    }
+  ],
+  "min_footprint": {
+    "width": 20,
+    "length": 20
+  },
+  "compat_source": "immersive_vehicles"
+}

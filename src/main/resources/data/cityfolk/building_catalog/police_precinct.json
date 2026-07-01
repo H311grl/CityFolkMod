@@ -1,0 +1,31 @@
+{
+  "id": "cityfolk:police_precinct",
+  "display_name": "Police Precinct",
+  "category": "safety",
+  "description": "A place where police work.",
+  "associated_jobs": [
+    "cityfolk:police_officer",
+    "cityfolk:social_worker"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:police_desk",
+      "note": "Where cops work on case files"
+    },
+    {
+      "tag": "cityfolk:police_computer",
+      "note": "Where police store case files."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 7,
+    "length": 9
+  },
+  "compat_source": ""
+}

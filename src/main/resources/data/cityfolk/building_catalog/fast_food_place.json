@@ -1,0 +1,32 @@
+{
+  "id": "cityfolk:fast_food",
+  "display_name": "Fast Food Place",
+  "category": "food",
+  "description": "A place for people to grab a quick meal.",
+  "associated_jobs": [
+    "cityfolk:fast_food_worker"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:cash_register",
+      "note": "Where workers can process payments on food"
+    },
+    {
+      "tag": "cityfolk:convection_oven",
+      "note": "Where workers can cook food"
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 7,
+    "length": 9
+  },
+  "compat_source": [
+    "farmers_delight"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "cityfolk:life_guard_tower",
+  "display_name": "Life Guard Tower",
+  "category": "safety",
+  "description": "A tower for life guards to stay on at the beach.",
+  "associated_jobs": [
+    "cityfolk:life_guard"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolks:rescue_tube",
+      "note": "Found inside towers, used by life guards"
+    },
+    {
+      "tag": "cityfolk:guard_bench",
+      "note": "Where the life guard sits to watch for peoples safety."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 7,
+    "length": 9
+  },
+  "compat_source": "lets_do_beachparty"
+}

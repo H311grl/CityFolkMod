@@ -1,0 +1,30 @@
+{
+  "id": "cityfolk:auto_shop",
+  "display_name": "Auto Shop",
+  "category": "retail",
+  "description": "A place for pople to shop for their own car parts.",
+  "associated_jobs": [
+    "cityfolk:auto_shop_clerk"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:auto_shop_counter",
+      "note": "Where clerks will stand to process payments on auto parts."
+    },
+    {
+      "tag": "cityfolk:auto_shop_shelves",
+      "note": "Where customers can shop for parts."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "cityfolk:auto_shop_sign",
+      "note": "A decorative sign for auto shops."
+    }
+  ],
+  "min_footprint": {
+    "width": 7,
+    "length": 9
+  },
+  "compat_source": "immersive_vehicles"
+}

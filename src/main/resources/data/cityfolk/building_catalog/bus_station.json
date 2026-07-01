@@ -1,0 +1,31 @@
+{
+  "id": "cityfolk:bus_station",
+  "display_name": "Bus Station",
+  "category": "transportation",
+  "description": "A place for people to travel by bus.",
+  "associated_jobs": [
+    "cityfolk:bus_driver",
+    "cityfolk:bus_ticket_clerk"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:bus_ticket_window",
+      "note": "Where clerks will stand to speak to travelers."
+    },
+    {
+      "tag": "cityfolk:bus_ticket_slot",
+      "note": "Where clerks deposit tickets for travelers to pick up. Tickets can be handed to the bus driver on arrival."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "cityfolk:bus_station_seat",
+      "note": "Where travelers can sit while waiting for the bus."
+    }
+  ],
+  "min_footprint": {
+    "width": 20,
+    "length": 21
+  },
+  "compat_source": "immersive_vehicles"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "cityfolk:doggy_daycare",
+  "display_name": "Doggy Daycare",
+  "category": "useful",
+  "description": "A place for people to drop off their dogs during a busy day, get them groomed, have them trained, or to socialize.",
+  "associated_jobs": [
+    "cityfolk:dog_groomer",
+    "cityfolk:dog_trainer",
+    "cityfolk:dog_caretaker"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:grooming_station",
+      "note": "Where dog groomers work to cut dogs hair and nails."
+    },
+    {
+      "tag": "cityfolk:trainer_tool_box",
+      "note": "Where trainers can grab materials to train dogs."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 7,
+    "length": 9
+  },
+  "compat_source": "working_dogs"
+}

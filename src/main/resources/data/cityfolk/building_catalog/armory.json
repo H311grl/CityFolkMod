@@ -1,0 +1,35 @@
+{
+  "id": "cityfolk:armory",
+  "display_name": "Armory",
+  "category": "retail",
+  "description": "A place for people to shop for armor.",
+  "associated_jobs": [
+    "cityfolk:armor_shop_clerk",
+    "cityfolk:armor_distributor"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:armor_checkout_counter",
+      "note": "Where shop clerks stand to process payments on armor."
+    },
+    {
+      "tag": "cityfolk:armor_storage",
+      "note": "Where distributors will deliver armor for store clerks to place on shelves."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "cityfolk:mannequin",
+      "note": "Decorative mannequin used to showcase armor. Can be positioned."
+    }
+  ],
+  "min_footprint": {
+    "width": 15,
+    "length": 12
+  },
+  "compat_source": [
+    "iron's_spells_and_spellbooks",
+    "mowzies_mobs",
+    "epic_knights"
+  ]
+}

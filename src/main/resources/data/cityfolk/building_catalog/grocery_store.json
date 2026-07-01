@@ -1,0 +1,35 @@
+{
+  "id": "cityfolk:grocery_store",
+  "display_name": "Grocery Store",
+  "category": "retail",
+  "description": "A place for people to shop for groceries.",
+  "associated_jobs": [
+    "cityfolk:grocery_store_clerk"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:grocery_scanner",
+      "note": "Where clerks can scan food/items and process payments"
+    },
+    {
+      "tag": "cityfolk:grocery_shelves",
+      "note": "Where customers can grab items."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 7,
+    "length": 9
+  },
+  "compat_source": [
+    "yuushas_townscape",
+    "farmers_delight",
+    "hybrid_aquatic",
+    "hybrid_birds"
+  ]
+}

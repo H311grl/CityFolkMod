@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "display_name": "",
+  "category": "",
+  "description": "",
+  "associated_jobs": [
+    ""
+  ],
+  "required_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    },
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 7,
+    "length": 9
+  },
+  "compat_source": ""
+}

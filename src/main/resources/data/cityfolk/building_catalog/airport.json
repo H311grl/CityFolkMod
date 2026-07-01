@@ -1,0 +1,32 @@
+{
+  "id": "cityfolk:airport",
+  "display_name": "Airport",
+  "category": "transportation",
+  "description": "A place where pilots transport villagers and players on planes. TSA works here to check bags and players for any weapons.",
+  "associated_jobs": [
+    "cityfolk:pilot",
+    "cityfolk:ticket_clerk",
+    "cityfolk:TSA"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:ticket_scanner",
+      "note": "At least one ticket scanner block, this is used by ticket clerks to check people in for their flight."
+    },
+    {
+      "tag": "cityfolk:bag_scanner",
+      "note": "At least one bag scanner block, used by TSA to scan bags"
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 25,
+    "length": 30
+  },
+  "compat_source": "immersive_vehicles"
+}

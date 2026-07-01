@@ -1,0 +1,31 @@
+{
+  "id": "cityfolk:amusement_park",
+  "display_name": "Amusement Park",
+  "category": "entertainment",
+  "description": "A place for villagers can gather with their friends and family to have fun.",
+  "associated_jobs": [
+    "cityfolk:park_worker",
+    "cityfolk:vendor"
+  ],
+  "required_blocks": [
+    {
+      "tag": "park_ticket_dispenser",
+      "note": "Dispenses a ticket when used. Player/ villager will give the park worker money, which is then used on this block to dispense a ticket for entry."
+    },
+    {
+      "tag": "vendor_station_block",
+      "note": "Where the vendors will stand at their stations, waiting to give people food in exchange for money."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "cash_register",
+      "note": "For cash inventory keeping."
+    }
+  ],
+  "min_footprint": {
+    "width": 7,
+    "length": 9
+  },
+  "compat_source": "jurassic_reborn"
+}
