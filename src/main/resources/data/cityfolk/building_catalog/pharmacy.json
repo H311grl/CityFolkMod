@@ -1,0 +1,30 @@
+{
+  "id": "cityfolk:pharmacy",
+  "display_name": "Pharmacy",
+  "category": "medical",
+  "description": "A place where pharmacists process medications and payments.",
+  "associated_jobs": [
+    "cityfolk:pharmacist"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:pharmacy_computer",
+      "note": "Where pharmacists clock in for their shifts and enter patient information."
+    },
+    {
+      "tag": "cityfolk:pharmacy_counter",
+      "note": "Where pharmacists work to give people their medications."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 7,
+    "length": 9
+  },
+  "compat_source": "hospitals_-_medical_blocks_&_items"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "cityfolk:court_house",
+  "display_name": "Court House",
+  "category": "safety",
+  "description": "A place for people to gather for court hearings.",
+  "associated_jobs": [
+    "cityfolk:judge",
+    "cityfolk:jury",
+    "cityfolk:police_officer"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:jurors_bench",
+      "note": "At least 1. Used by jurors to watch trial."
+    },
+    {
+      "tag": "cityfolk:judges_chair",
+      "note": "Where judges sit during proceedings."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 15,
+    "length": 12
+  },
+  "compat_source": [
+    "",
+    ""
+  ]
+}

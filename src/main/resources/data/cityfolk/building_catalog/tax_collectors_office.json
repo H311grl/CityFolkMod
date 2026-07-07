@@ -1,19 +1,19 @@
 {
-  "id": "",
-  "display_name": "",
-  "category": "",
-  "description": "",
+  "id": "cityfolk:tax_collector_office",
+  "display_name": "Tax Collector's Office",
+  "category": "office",
+  "description": "A place for tax collectors to work.",
   "associated_jobs": [
-    ""
+    "cityfolk:tax_collector"
   ],
   "required_blocks": [
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:tax_printer",
+      "note": "Where tax collectors print out taxes."
     },
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:filing_cabinet",
+      "note": "Where tax collectors file taxes in storage."
     }
   ],
   "optional_blocks": [
@@ -24,7 +24,7 @@
   ],
   "min_footprint": {
     "width": 7,
-    "height": 9
+    "length": 9
   },
   "compat_source": ""
 }

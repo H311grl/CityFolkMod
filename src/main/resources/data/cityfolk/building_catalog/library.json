@@ -1,0 +1,33 @@
+{
+  "id": "cityfolk:library",
+  "display_name": "Library",
+  "category": "retail",
+  "description": "A place for people to buy books or sit and read them.",
+  "associated_jobs": [
+    "cityfolk:librarian"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:bookshelf",
+      "note": "At least 1 of these. This is where people can pick up books."
+    },
+    {
+      "tag": "cityfolk:librarian_counter",
+      "note": "Checkout counter for librarians."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 15,
+    "length": 12
+  },
+  "compat_source": [
+    "",
+    ""
+  ]
+}

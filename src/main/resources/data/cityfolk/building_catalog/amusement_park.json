@@ -2,7 +2,7 @@
   "id": "cityfolk:amusement_park",
   "display_name": "Amusement Park",
   "category": "entertainment",
-  "description": "A place for villagers can gather with their friends and family to have fun.",
+  "description": "A place where villagers can gather with their friends and family to have fun.",
   "associated_jobs": [
     "cityfolk:park_worker",
     "cityfolk:vendor"

@@ -1,19 +1,21 @@
 {
-  "id": "",
-  "display_name": "",
-  "category": "",
-  "description": "",
+  "id": "cityfolk:zoo",
+  "display_name": "Zoo",
+  "category": "entertainment",
+  "description": "A place for people to see animals",
   "associated_jobs": [
-    ""
+    "cityfolk:animal_handler",
+    "cityfolk:zoo_worker",
+    "cityfolk:zoo_ticket_handler"
   ],
   "required_blocks": [
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:zoo_food_storage",
+      "note": "Storage for zoo animal food only. Used by animal handlers to feed animals."
     },
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:zoo_ticket_register",
+      "note": "Where ticket workers may process tickets."
     }
   ],
   "optional_blocks": [
@@ -23,8 +25,12 @@
     }
   ],
   "min_footprint": {
-    "width": 7,
-    "height": 9
+    "width": 50,
+    "length": 50
   },
-  "compat_source": ""
+  "compat_source": [
+    "alexs_mobs",
+    "naturalist",
+    "critters_&_companions"
+  ]
 }

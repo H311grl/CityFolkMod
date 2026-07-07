@@ -1,0 +1,34 @@
+{
+  "id": "cityfolk:hotel",
+  "display_name": "Hotel",
+  "category": "useful",
+  "description": "A place for people to stay while on vacation/ while travelling.",
+  "associated_jobs": [
+    "cityfolk:hotel_staff",
+    "cityfolk:house_keeping"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:cleaning_station",
+      "note": "At least 1, used by house keeping to clean rooms."
+    },
+    {
+      "tag": "cityfolk:hotel_staff_desk",
+      "note": "Used by hotel staff. Where they stay to check people into rooms."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 15,
+    "length": 12
+  },
+  "compat_source": [
+    "",
+    ""
+  ]
+}

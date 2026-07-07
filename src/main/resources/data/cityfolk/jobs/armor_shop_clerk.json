@@ -1,0 +1,37 @@
+{
+  "id": "cityfolk:armor_shop_clerk",
+  "display_name": "Armor Shop Clerk",
+  "category": "retail",
+  "wage": {
+    "amount": 15,
+    "currency_item": "cityfolk:dollar_bill",
+    "pay_period_days": 7
+  },
+  "work_hours": {
+    "start_hour": 8,
+    "end_hour": 17
+  },
+  "workplace_building_types": [
+    "cityfolk:armory"
+  ],
+  "behaviors": [
+    {
+      "primitive": "GO_TO_WORKPLACE",
+      "params": {}
+    },
+    {
+      "primitive": "SERVE_CUSTOMER",
+      "params": {
+        "counter_block_tag": "cityfolk:checkout_counter",
+        "max_wait_ticks": "1200"
+      }
+    }
+  ],
+  "min_working_age": 18,
+  "uniform": [
+    {
+      "slot": "chest",
+      "item": "cityfolk:armor_shop_clerk_uniform_shirt"
+    }
+  ]
+}

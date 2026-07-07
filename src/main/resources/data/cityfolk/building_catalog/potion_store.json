@@ -1,19 +1,19 @@
 {
-  "id": "",
-  "display_name": "",
-  "category": "",
-  "description": "",
+  "id": "cityfolk:potion_store",
+  "display_name": "Potion Store",
+  "category": "retail",
+  "description": "A place where people can buy potions of all kinds.",
   "associated_jobs": [
-    ""
+    "cityfolk:potion_store_clerk"
   ],
   "required_blocks": [
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:potion_register",
+      "note": "Where clerks can process payments."
     },
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:potion_crate",
+      "note": "Where clerks gather potions delivered by distributors from potion labs."
     }
   ],
   "optional_blocks": [
@@ -24,7 +24,7 @@
   ],
   "min_footprint": {
     "width": 7,
-    "height": 9
+    "length": 9
   },
-  "compat_source": ""
+  "compat_source": "iron's_spells_and_spellbooks"
 }

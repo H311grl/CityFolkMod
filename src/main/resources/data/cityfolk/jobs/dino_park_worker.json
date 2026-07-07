@@ -1,0 +1,37 @@
+{
+  "id": "cityfolk:dino_park_worker",
+  "display_name": "Dino Park Worker",
+  "category": "entertainment",
+  "wage": {
+    "amount": 15,
+    "currency_item": "cityfolk:dollar_bill",
+    "pay_period_days": 7
+  },
+  "work_hours": {
+    "start_hour": 8,
+    "end_hour": 17
+  },
+  "workplace_building_types": [
+    "cityfolk:jurassic_park"
+  ],
+  "behaviors": [
+    {
+      "primitive": "GO_TO_WORKPLACE",
+      "params": {}
+    },
+    {
+      "primitive": "WORK",
+      "params": {
+        "counter_block_tag": "cityfolk:dino_park_station",
+        "max_wait_ticks": "1200"
+      }
+    }
+  ],
+  "min_working_age": 18,
+  "uniform": [
+    {
+      "slot": "chest",
+      "item": "cityfolk:dino_park_worker_uniform_shirt"
+    }
+  ]
+}

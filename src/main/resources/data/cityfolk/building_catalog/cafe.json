@@ -1,0 +1,33 @@
+{
+  "id": "cityfolk:cafe",
+  "display_name": "Cafe",
+  "category": "food",
+  "description": "A place for people to buy coffee, tea, or small desserts.",
+  "associated_jobs": [
+    "cityfolk:barista"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:coffee_maker",
+      "note": "Used by baristas to make drinks."
+    },
+    {
+      "tag": "cityfolk:barista_counter",
+      "note": "Where baristas stand to take orders."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "cityfolk:cash_register",
+      "note": "Where baristas can process payments."
+    }
+  ],
+  "min_footprint": {
+    "width": 15,
+    "length": 12
+  },
+  "compat_source": [
+    "",
+    ""
+  ]
+}

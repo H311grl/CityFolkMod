@@ -15,6 +15,10 @@
     {
       "tag": "cityfolk:bus_ticket_slot",
       "note": "Where clerks deposit tickets for travelers to pick up. Tickets can be handed to the bus driver on arrival."
+    },
+    {
+      "tag": "cityfolk:time_clock",
+      "note": "Where bus drivers clock in."
     }
   ],
   "optional_blocks": [

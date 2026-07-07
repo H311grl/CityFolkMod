@@ -1,19 +1,24 @@
 {
-  "id": "",
-  "display_name": "",
-  "category": "",
-  "description": "",
+  "id": "cityfolk:restaurant",
+  "display_name": "Restaurant",
+  "category": "food",
+  "description": "A place for people to sit down and eat",
   "associated_jobs": [
-    ""
+    "cityfolk:chef",
+    "cityfolk:waitress",
+    "cityfolk:waiter",
+    "cityfolk:manager",
+    "cityfolk:bartender",
+    "cityfolk:host"
   ],
   "required_blocks": [
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:pos_system",
+      "note": "Used by waiters/waitresses and bartenders to clock in and keep track of orders/ send orders to the kitchen.Kitchen uses this to read orders and cook them."
     },
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:host_stand",
+      "note": "Where the host stands waiting to seat people."
     }
   ],
   "optional_blocks": [
@@ -24,7 +29,7 @@
   ],
   "min_footprint": {
     "width": 7,
-    "height": 9
+    "length": 9
   },
-  "compat_source": ""
+  "compat_source": "farmers_delight"
 }

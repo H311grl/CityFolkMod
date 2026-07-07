@@ -1,19 +1,20 @@
 {
-  "id": "",
-  "display_name": "",
-  "category": "",
-  "description": "",
+  "id": "cityfolk:subway_station",
+  "display_name": "Subway Station",
+  "category": "transportation",
+  "description": "A place for people to travel by subway.",
   "associated_jobs": [
-    ""
+    "cityfolk:subway_conductor",
+    "cityfolk:ticket_handler"
   ],
   "required_blocks": [
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:ticket_scanner",
+      "note": "Where ticket handlers work scanning people into their subway rides."
     },
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:departure_screen",
+      "note": "Shows all available departures and locations of arrival."
     }
   ],
   "optional_blocks": [
@@ -23,8 +24,8 @@
     }
   ],
   "min_footprint": {
-    "width": 7,
-    "height": 9
+    "width": 17,
+    "length": 19
   },
-  "compat_source": ""
+  "compat_source": "create_steam_'n'_rails"
 }

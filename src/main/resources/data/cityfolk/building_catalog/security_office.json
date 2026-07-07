@@ -1,19 +1,19 @@
 {
-  "id": "",
-  "display_name": "",
-  "category": "",
-  "description": "",
+  "id": "cityfolk:security_office",
+  "display_name": "Security Office",
+  "category": "safety",
+  "description": "A place where security guards reside and work.",
   "associated_jobs": [
-    ""
+    "cityfolk:security_guard"
   ],
   "required_blocks": [
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:security_desk",
+      "note": "Where the guard sits to work"
     },
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:security_phone",
+      "note": "Guards use this to respond to calls and concerns."
     }
   ],
   "optional_blocks": [
@@ -24,7 +24,7 @@
   ],
   "min_footprint": {
     "width": 7,
-    "height": 9
+    "length": 9
   },
   "compat_source": ""
 }

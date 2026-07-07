@@ -1,0 +1,33 @@
+{
+  "id": "cityfolk:community_pool",
+  "display_name": "Community Pool",
+  "category": "entertainment",
+  "description": "A place for people to swim.",
+  "associated_jobs": [
+    "cityfolk:life_guard"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:pool_wall",
+      "note": "At least 1. Used to define pool boundaries."
+    },
+    {
+      "tag": "cityfolk:guard_bench",
+      "note": "Used by hotel staff. Where they stay to check people into rooms."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 5,
+    "length": 8
+  },
+  "compat_source": [
+    "",
+    ""
+  ]
+}

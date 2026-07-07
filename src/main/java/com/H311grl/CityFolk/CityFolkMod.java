@@ -1,5 +1,7 @@
 package com.H311grl.CityFolk;
 
+import com.H311grl.CityFolk.registry.ModCreativeTabs;
+import com.H311grl.CityFolk.registry.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -35,7 +37,7 @@ public class CityFolkMod
     // Define mod id in a common place for everything to reference
     public static final String MODID = "cityfolk";
     // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
     // Create a Deferred Register to hold Blocks which will all be registered under the "examplemod" namespace
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
     // Create a Deferred Register to hold Items which will all be registered under the "examplemod" namespace
@@ -73,6 +75,9 @@ public class CityFolkMod
         ITEMS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
         CREATIVE_MODE_TABS.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModCreativeTabs.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

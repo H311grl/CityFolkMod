@@ -1,19 +1,25 @@
 {
-  "id": "",
-  "display_name": "",
-  "category": "",
-  "description": "",
+  "id": "cityfolk:school",
+  "display_name": "School",
+  "category": "education",
+  "description": "A place where children under the age of 18 go to learn and socialize.",
   "associated_jobs": [
-    ""
+    "cityfolk:teacher",
+    "cityfolk:principal",
+    "cityfolk:cafeteria_cook"
   ],
   "required_blocks": [
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:teacher_desk",
+      "note": "Where teachers review lesson plans and work."
     },
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:principal_desk",
+      "note": "Where the principal reviews the schools stats."
+    },
+    {
+      "tag": "cityfolk:cafeteria_counter",
+      "note": "Where cafeteria cooks work and give people meals."
     }
   ],
   "optional_blocks": [
@@ -24,7 +30,7 @@
   ],
   "min_footprint": {
     "width": 7,
-    "height": 9
+    "length": 9
   },
   "compat_source": ""
 }

@@ -1,19 +1,20 @@
 {
-  "id": "",
-  "display_name": "",
-  "category": "",
-  "description": "",
+  "id": "cityfolk:research_lab",
+  "display_name": "Research Lab",
+  "category": "research",
+  "description": "A place for scientists to research medicine.",
   "associated_jobs": [
-    ""
+    "cityfolk:scientist",
+    "cityfolk:lab_worker"
   ],
   "required_blocks": [
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:research_monitor",
+      "note": "Used by scientists to keep records."
     },
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:pathogen_scanner",
+      "note": "Used for research"
     }
   ],
   "optional_blocks": [
@@ -24,7 +25,7 @@
   ],
   "min_footprint": {
     "width": 7,
-    "height": 9
+    "length": 9
   },
-  "compat_source": ""
+  "compat_source": "Ad Astra"
 }

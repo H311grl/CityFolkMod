@@ -1,0 +1,44 @@
+{
+  "id": "cityfolk:bank_worker",
+  "display_name": "Bank Worker",
+  "category": "banking",
+  "wage": {
+    "amount": 25,
+    "currency_item": "cityfolk:dollar_bill",
+    "pay_period_days": 7
+  },
+  "work_hours": {
+    "start_hour": 8,
+    "end_hour": 17
+  },
+  "workplace_building_types": [
+    ""
+  ],
+  "behaviors": [
+    {
+      "primitive": "GO_TO_WORKPLACE",
+      "params": {}
+    },
+    {
+      "primitive": "SERVE_CUSTOMER",
+      "params": {
+        "counter_block_tag": "cityflok:banker_desk",
+        "max_wait_ticks": "1200"
+      }
+    },
+    {
+      "primitive": "ACCESS_SAFE",
+      "params": {
+        "counter_block_tag": "cityflok:bank_safe",
+        "max_wait_ticks": "1200"
+    }
+    }
+  ],
+  "min_working_age": 18,
+  "uniform": [
+    {
+      "slot": "chest",
+      "item": "cityfolk:banker_uniform_shirt"
+    }
+  ]
+}

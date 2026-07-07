@@ -14,6 +14,10 @@
     {
       "tag": "cityfolk:blender",
       "note": "Bartenders can use this to make frozen drinks or milkshakes"
+    },
+    {
+      "tag": "cityfolk:cash_register",
+      "note": "Required for bartenders to make payments on orders."
     }
   ],
   "optional_blocks": [

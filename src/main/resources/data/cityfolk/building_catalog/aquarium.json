@@ -1,0 +1,37 @@
+{
+  "id": "cityfolk:aquarium",
+  "display_name": "Aquarium",
+  "category": "entertainment",
+  "description": "A place for people to see fish.",
+  "associated_jobs": [
+    "cityfolk:aquarium_worker",
+    "cityfolk:aquarium_ticket_handler"
+  ],
+  "required_blocks": [
+    {
+      "tag": "cityfolk:fish_food_storage",
+      "note": "Used by aquarium workers to feed fish."
+    },
+    {
+      "tag": "cityfolk:aquarium_ticket_scanner",
+      "note": "Used by ticket handlers to scan tickets"
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "",
+      "note": ""
+    }
+  ],
+  "min_footprint": {
+    "width": 15,
+    "length": 20
+  },
+  "compat_source": [
+    "alexs_mobs",
+    "naturalist",
+    "critters_&_companions",
+    "bens_sharks",
+    "hybrid_aquatic"
+  ]
+}

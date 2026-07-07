@@ -1,0 +1,31 @@
+{
+  "id": "cityfolk:movie_theater",
+  "display_name": "Movie Theater",
+  "category": "entertainment",
+  "description": "A place for people to watch movies.",
+  "associated_jobs": [
+    "cityfolk:movie_theater_worker",
+    "cityfolk:movie_food_worker"
+  ],
+  "required_blocks": [
+    {
+      "tag": "movie_ticket_dispenser",
+      "note": "Dispenses a ticket when used. Player/ villager will give the movie theater worker money, which is then used on this block to dispense a ticket for entry."
+    },
+    {
+      "tag": "popcorn_machine",
+      "note": "Where the food workers stand to give people food, including popcorn."
+    }
+  ],
+  "optional_blocks": [
+    {
+      "tag": "cash_register",
+      "note": "For cash inventory keeping."
+    }
+  ],
+  "min_footprint": {
+    "width": 7,
+    "length": 9
+  },
+  "compat_source": ""
+}

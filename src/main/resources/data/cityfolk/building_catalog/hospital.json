@@ -16,6 +16,10 @@
     {
       "tag": "cityfolk:pharmacy_counter",
       "note": "Where pharmacists work to give people their medications."
+    },
+    {
+      "tag": "cityfolk:cafeteria_counter",
+      "note": "Where cafeteria cooks work and give people meals."
     }
   ],
   "optional_blocks": [

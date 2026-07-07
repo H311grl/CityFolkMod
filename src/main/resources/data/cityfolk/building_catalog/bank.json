@@ -20,6 +20,10 @@
     {
       "tag": "cityfolk:bank_seats",
       "note": "Chairs for people to sit in.Compatible with seats in other mods."
+    },
+    {
+      "tag": "cityfolk:security_cameras",
+      "note": "Used to monitor places."
     }
   ],
   "min_footprint": {

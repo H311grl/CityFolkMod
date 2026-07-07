@@ -1,19 +1,19 @@
 {
-  "id": "",
-  "display_name": "",
-  "category": "",
-  "description": "",
+  "id": "cityfolk:weapon_store",
+  "display_name": "Weapon Store",
+  "category": "retail",
+  "description": "A place for security and people to buy weapons.",
   "associated_jobs": [
-    ""
+    "cityfolk:weapon_store_clerk"
   ],
   "required_blocks": [
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:weapon_store_counter",
+      "note": "Where clerks process payments"
     },
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:ammunition_safe",
+      "note": "Where clerks can access ammunition for customers. Only they know the code to it."
     }
   ],
   "optional_blocks": [
@@ -23,8 +23,8 @@
     }
   ],
   "min_footprint": {
-    "width": 7,
-    "height": 9
+    "width": 10,
+    "length": 10
   },
-  "compat_source": ""
+  "compat_source": "jurassic_reborn"
 }

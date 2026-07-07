@@ -1,0 +1,37 @@
+{
+  "id": "cityfolk:aquarium_ticket_handler",
+  "display_name": "Aquarium Ticket Handler",
+  "category": "entertainment",
+  "wage": {
+    "amount": 15,
+    "currency_item": "cityfolk:dollar_bill",
+    "pay_period_days": 7
+  },
+  "work_hours": {
+    "start_hour": 8,
+    "end_hour": 17
+  },
+  "workplace_building_types": [
+    "cityfolk:aquarium"
+  ],
+  "behaviors": [
+    {
+      "primitive": "GO_TO_WORKPLACE",
+      "params": {}
+    },
+    {
+      "primitive": ["SCAN_TICKETS", "SERVE_CUSTOMER"],
+      "params": {
+        "counter_block_tag": "cityfolk:aquarium_ticket_scanner",
+        "max_wait_ticks": "1200"
+      }
+    }
+  ],
+  "min_working_age": 18,
+  "uniform": [
+    {
+      "slot": "chest",
+      "item": "cityfolk:aquarium_uniform_shirt"
+    }
+  ]
+}

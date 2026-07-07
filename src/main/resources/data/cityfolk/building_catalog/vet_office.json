@@ -1,19 +1,21 @@
 {
-  "id": "",
-  "display_name": "",
-  "category": "",
-  "description": "",
+  "id": "cityfolk:vet_office",
+  "display_name": "Vet Office ",
+  "category": "medical",
+  "description": "A place for people to bring pets for check ups, medical evaluations, and treatment.",
   "associated_jobs": [
-    ""
+    "cityfolk:veterinarian",
+    "cityfolk:veterinary_assistant",
+    "cityfolk:receptionist"
   ],
   "required_blocks": [
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:vet_front_desk",
+      "note": "Where receptionists work to check people in to appointments and handle payments."
     },
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:vet_exam_table",
+      "note": "Where veterinarians and their assistants work with animals in designated exam rooms."
     }
   ],
   "optional_blocks": [
@@ -23,8 +25,11 @@
     }
   ],
   "min_footprint": {
-    "width": 7,
-    "height": 9
+    "width": 10,
+    "length": 15
   },
-  "compat_source": ""
+  "compat_source": [
+    "critters_&_companions",
+    "working_dogs"
+  ]
 }

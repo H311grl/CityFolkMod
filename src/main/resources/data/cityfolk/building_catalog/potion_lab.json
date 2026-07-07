@@ -1,19 +1,20 @@
 {
-  "id": "",
-  "display_name": "",
-  "category": "",
-  "description": "",
+  "id": "cityfolk:potion_lab",
+  "display_name": "Potion Lab",
+  "category": "research",
+  "description": "A place where scientists go to research and create potions.",
   "associated_jobs": [
-    ""
+    "cityfolk:scientist",
+    "cityfolk:lab_worker"
   ],
   "required_blocks": [
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:potion_stand",
+      "note": "One required, at least. This is where potions are made"
     },
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:research_monitor",
+      "note": "Where scientists and lab workers keep records."
     }
   ],
   "optional_blocks": [
@@ -26,5 +27,5 @@
     "width": 7,
     "length": 9
   },
-  "compat_source": ""
+  "compat_source": "iron's_spells_and_spellbooks"
 }

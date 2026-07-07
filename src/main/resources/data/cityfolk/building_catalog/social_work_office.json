@@ -1,19 +1,19 @@
 {
-  "id": "",
-  "display_name": "",
-  "category": "",
-  "description": "",
+  "id": "cityfolk:social_work_office",
+  "display_name": "Social Work Office",
+  "category": "safety",
+  "description": "Where social workers work, usually inside precincts",
   "associated_jobs": [
-    ""
+    "cityfolk:social_worker"
   ],
   "required_blocks": [
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:social_work_desk",
+      "note": "Where social workers work on case files."
     },
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:child_chair",
+      "note": "Where children can sit when social workers speak with police about their parents."
     }
   ],
   "optional_blocks": [
@@ -24,7 +24,7 @@
   ],
   "min_footprint": {
     "width": 7,
-    "height": 9
+    "length": 9
   },
   "compat_source": ""
 }

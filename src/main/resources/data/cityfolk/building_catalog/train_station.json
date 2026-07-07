@@ -1,19 +1,20 @@
 {
-  "id": "",
-  "display_name": "",
-  "category": "",
-  "description": "",
+  "id": "cityfolk:train_station",
+  "display_name": "Train Station",
+  "category": "transportation",
+  "description": "A place for people to travel by train.",
   "associated_jobs": [
-    ""
+    "cityfolk:train_conductor",
+    "cityfolk:ticket_handler"
   ],
   "required_blocks": [
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:ticket_scanner",
+      "note": "Where ticket handlers scan tickets."
     },
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:conductor_time_clock",
+      "note": "Where conductors clock in for shifts."
     }
   ],
   "optional_blocks": [
@@ -26,5 +27,5 @@
     "width": 7,
     "height": 9
   },
-  "compat_source": ""
+  "compat_source": "create_steam_'n'_rails"
 }

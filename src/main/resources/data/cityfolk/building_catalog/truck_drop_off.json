@@ -1,19 +1,19 @@
 {
-  "id": "",
-  "display_name": "",
-  "category": "",
-  "description": "",
+  "id": "cityfolk:truck_drop_off",
+  "display_name": "Truck Drop Off",
+  "category": "retail",
+  "description": "Where distributors drop off materials for stores.",
   "associated_jobs": [
-    ""
+    "cityfolk:truck_driver"
   ],
   "required_blocks": [
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:crate",
+      "note": "Where distributors deposit materials from trucks."
     },
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:distributor_check_in",
+      "note": "Used by distributors to keep record of drop offs."
     }
   ],
   "optional_blocks": [
@@ -26,5 +26,5 @@
     "width": 7,
     "height": 9
   },
-  "compat_source": ""
+  "compat_source": "immersive_vehicles"
 }

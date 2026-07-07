@@ -1,19 +1,20 @@
 {
-  "id": "",
-  "display_name": "",
-  "category": "",
-  "description": "",
+  "id": "cityfolk:space_station",
+  "display_name": "Space Station",
+  "category": "research",
+  "description": "A place where people research space and travel to other planets.",
   "associated_jobs": [
-    ""
+    "cityfolk:astronaut",
+    "cityfolk:space_scientist"
   ],
   "required_blocks": [
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:rocket_workbench",
+      "note": "Where rockets can be built"
     },
     {
-      "tag": "",
-      "note": ""
+      "tag": "cityfolk:space_monitor",
+      "note": "Used to communicate with people who are currently in space at other stations. Also used to keep logs and records of travel and research updates."
     }
   ],
   "optional_blocks": [
@@ -24,7 +25,7 @@
   ],
   "min_footprint": {
     "width": 7,
-    "height": 9
+    "length": 9
   },
-  "compat_source": ""
+  "compat_source": "ad_astra"
 }
