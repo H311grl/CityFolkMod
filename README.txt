@@ -1,3 +1,6 @@
+   [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/H311grl/CityFolkMod/badge)](https://scorecard.dev/viewer/?uri=github.com/H311grl/CityFolkMod)
+
+
 
 Source installation information for modders
 -------------------------------------------
