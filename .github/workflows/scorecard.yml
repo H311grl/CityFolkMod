@@ -2,6 +2,9 @@
 # by a third-party and are governed by separate terms of service, privacy
 # policy, and support documentation.
 
+# Declare default permissions as read only.
+permissions: read-all
+
 name: Scorecard supply-chain security
 on:
   # For Branch-Protection check. Only the default branch is supported. See
@@ -14,8 +17,7 @@ on:
   push:
     branches: [ "master" ]
 
-# Declare default permissions as read only.
-permissions: read-all
+
 
 jobs:
   analysis:
