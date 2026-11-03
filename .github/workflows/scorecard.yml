@@ -14,8 +14,7 @@ on:
   push:
     branches: [ "master" ]
 
-# Declare default permissions as read only.
-permissions: read-all
+
 
 jobs:
   analysis:
