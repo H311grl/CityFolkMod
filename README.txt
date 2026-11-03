@@ -1,5 +1,5 @@
    [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/H311grl/CityFolkMod/badge)](https://scorecard.dev/viewer/?uri=github.com/H311grl/CityFolkMod)
-
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16309/badge)](https://www.bestpractices.dev/projects/16309)
 
 
 Source installation information for modders
